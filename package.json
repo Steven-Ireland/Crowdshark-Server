@@ -9,6 +9,7 @@
   "author": "Steven Ireland",
   "license": "UNLICENSED",
   "dependencies": {
-    "express": "^4.14.1"
+    "express": "^4.14.1",
+    "ipfs-api": "^12.1.6"
   }
 }
