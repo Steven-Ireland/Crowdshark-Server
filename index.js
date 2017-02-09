@@ -13,12 +13,7 @@ app.get('/', function(req, res) {
 });
 
 app.get('/browse', function(req, res) {
-  res.end(JSON.stringify([{name: 'Golem Project', description: 'this is a description', funding: 0, color: '#A9D6F5', link: '1234'},
-    {name: 'Golem Project2', description: 'this is a description description description description description description ', funding: 0, color: '#A9D6F5', link: '1234'},
-    {name: 'Golem Project 3', description: 'this is a description', funding: 0, color: '#A9D6F5', link: '1234'},
-  {name: 'Golem Project 4', description: 'this is a description', funding: 0, color: '#A9D6F5', link: '1234'},
-{name: 'Golem Project5', description: 'this is a description', funding: 0, color: '#A9D6F5', link: '1234'},
-{name: 'Golem Project6', description: 'this is a description', funding: 0, color: '#A9D6F5', link: '1234'}]));
+  res.end(JSON.stringify([{name: 'Golem Project', description: 'this is a description', funding: 0, color: '#A9D6F5', link: '1234', image: '/img/Qma7cna4uwsbwAGpNgzgbFBBkHNopaPHxqf5becQmXuYoM'}]));
 });
 
 app.get('/img/:url', function(req, res) {
